@@ -1,4 +1,4 @@
-activerecord6-redshift-adapter
+activerecord7-redshift-adapter
 ==============================
 
 Amazon Redshift adapter for ActiveRecord 7 (Rails 7).
