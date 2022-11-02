@@ -2,9 +2,10 @@ activerecord7-redshift-adapter
 ==============================
 
 Amazon Redshift adapter for ActiveRecord 7 (Rails 7).
-I forked the project from https://github.com/kwent/activerecord6-redshift-adapter
+This is a fork from https://rubygems.org/gems/activerecord7-redshift-adapter hosted on a private Gitlab instance.
+It's itself forked the project from https://github.com/kwent/activerecord6-redshift-adapter
 
-Thanks for the auhors.
+Thanks to the auhors.
 
 Usage
 -------------------
@@ -12,7 +13,7 @@ Usage
 For Rails 7, write following in Gemfile:
 
 ```ruby
-gem 'activerecord7-redshift-adapter'
+gem 'activerecord7-redshift-adapter', git: 'https://github.com/pennylane-hq/activerecord7-redshift-adapter.git'
 ```
 
 In database.yml
